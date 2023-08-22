@@ -1,0 +1,101 @@
+* {
+    font-family: helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+header {
+    max-height: 69px;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#logo {
+    float: left;
+    min-height: 10px;
+    max-height: 50px;
+}
+
+#nav {
+    float: right;
+    text-decoration: underline;
+    display: inline;
+    text-indent: 20px;
+}
+
+main {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*6qyoxi*_ga*MTI1NDU0NjUxLjE2OTE4NzI5NDI.*_ga_3LRZM6TM9L*MTY5MjUxMDI1NC4yNC4xLjE2OTI1MTAyNjEuNTMuMC4w");
+    height: 500px;
+    max-width: 1200px;
+    padding-top: 300px;
+    width: 100%;
+    margin: auto;
+    
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+.mission {
+    margin-bottom: 0;
+    padding: 20px;
+}
+
+.statement {
+    margin-top: 0;
+    padding-bottom: 20px;
+}
+
+#img , .caption {
+    height: 200px;
+    width: 300px;
+    margin: auto;
+    display: inline-block;
+    padding: 10px;
+}
+
+.tea {
+    margin: auto;
+    max-height: 500px;
+    max-width: 1200px;
+    width: 100%;
+    padding-bottom: 150px;
+}
+
+.locations {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*ql0pky*_ga*MTI1NDU0NjUxLjE2OTE4NzI5NDI.*_ga_3LRZM6TM9L*MTY5MjY1MjEwMy4yNy4xLjE2OTI2NTcyOTEuNTUuMC4w");
+    margin: auto;
+    height: 600px;
+    max-width: 1200px;
+}
+
+#loco {
+    background-color: transparent;
+    padding-top: 100px;
+}
+
+.downtown , .bayside , .oakdale {
+    margin: 20px 40px;
+    padding: auto;
+    width: 300px;
+    display: inline-block;
+    flex-wrap: wrap;
+    opacity: 1;
+    line-height: 2.4;
+}
+
+.copyright {
+    text-align: left;
+}
